@@ -1,0 +1,17 @@
+<apex:page controller="parameterpassingClass">
+  <apex:form >
+  
+   <apex:pageBlock >
+    <apex:pageBlockButtons >
+     <apex:commandButton action="{!save}" value=" Save "></apex:commandButton>
+     </apex:pageBlockButtons>
+    <apex:pageBlockSection title="Test get parameters, Click on Save to see result">
+     <input type='hidden' name="hello" value="CTS"/>
+     <apex:outputText value="{!myname}"/>
+    
+    
+    </apex:pageBlockSection>
+   </apex:pageBlock>
+  
+  </apex:form>
+</apex:page>

@@ -1,0 +1,4 @@
+<apex:page >
+    <apex:outputText > Hi User!!</apex:outputText> <br/><br/>
+    <c:CompCreateImage URLVal="/resource/1432007905000/HRLightning__BritishImage" />
+</apex:page>
